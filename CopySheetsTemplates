@@ -1,0 +1,10 @@
+function myFunction() {
+  
+// Copy the file ID you want to create a single copy
+var source_fileI = DriveApp.getFileById(' #1357 ');
+
+// Copy the folder ID where you want to send the new copy
+var dest_folder = DriveApp.getFolderById(' #2468 ');
+
+var new_fileI = source_fileI.makeCopy(dest_folder);
+}
