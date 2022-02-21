@@ -1,0 +1,9 @@
+function myFunction() {
+  
+// Introducir Id de template y Id de folder
+
+var source_fileI = DriveApp.getFileById('1hOlotTS_4bZIgQSczsRzwkgRp6h6qzOdW33J8YwTZ-o');
+var dest_folder = DriveApp.getFolderById('1m_5POhliyXtuO8ZbUZT2X7_gMYxO0XbV');
+var new_fileI = source_fileI.makeCopy(dest_folder);
+
+}
